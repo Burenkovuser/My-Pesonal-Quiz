@@ -219,15 +219,12 @@
                             <constraint firstItem="ofi-cg-GGD" firstAttribute="leading" secondItem="Maq-wc-dPF" secondAttribute="leading" constant="20" id="PrA-ir-acN"/>
                             <constraint firstItem="nMD-kT-dOm" firstAttribute="leading" secondItem="Maq-wc-dPF" secondAttribute="leading" constant="20" id="RW3-do-UJN"/>
                             <constraint firstItem="nMD-kT-dOm" firstAttribute="centerY" secondItem="zPj-g0-Ym6" secondAttribute="centerY" constant="32" id="VLc-nG-Iyw"/>
+                            <constraint firstItem="ofi-cg-GGD" firstAttribute="centerY" secondItem="nMD-kT-dOm" secondAttribute="centerY" id="Xhu-CV-tt7"/>
                             <constraint firstItem="Maq-wc-dPF" firstAttribute="trailing" secondItem="Zyc-5e-Wmq" secondAttribute="trailing" constant="20" id="hyI-EZ-Fiq"/>
                             <constraint firstItem="Maq-wc-dPF" firstAttribute="trailing" secondItem="nMD-kT-dOm" secondAttribute="trailing" constant="20" id="mL8-kq-0n8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Maq-wc-dPF"/>
                         <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="ofi-cg-GGD"/>
-                                <exclude reference="nMD-kT-dOm"/>
-                            </mask>
                             <mask key="constraints">
                                 <exclude reference="Ow1-Ns-7vB"/>
                             </mask>

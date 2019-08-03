@@ -14,6 +14,9 @@
 		FB087B5622F4713800CDD94E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB087B5422F4713800CDD94E /* LaunchScreen.storyboard */; };
 		FBC9C9D322F54A8E005EB7CC /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC9C9D222F54A8D005EB7CC /* Question.swift */; };
 		FBC9C9D922F54BE7005EB7CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC9C9D822F54BE7005EB7CC /* Default-568h@2x.png */; };
+		FBC9C9DC22F54F08005EB7CC /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC9C9DB22F54F08005EB7CC /* ResponseType.swift */; };
+		FBC9C9DE22F55098005EB7CC /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC9C9DD22F55098005EB7CC /* Answer.swift */; };
+		FBC9C9E022F55240005EB7CC /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC9C9DF22F55240005EB7CC /* AnimalType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		FB087B5722F4713800CDD94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBC9C9D222F54A8D005EB7CC /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		FBC9C9D822F54BE7005EB7CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FBC9C9DB22F54F08005EB7CC /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
+		FBC9C9DD22F55098005EB7CC /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		FBC9C9DF22F55240005EB7CC /* AnimalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				FBC9C9D222F54A8D005EB7CC /* Question.swift */,
+				FBC9C9DB22F54F08005EB7CC /* ResponseType.swift */,
+				FBC9C9DD22F55098005EB7CC /* Answer.swift */,
+				FBC9C9DF22F55240005EB7CC /* AnimalType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,7 +193,10 @@
 			files = (
 				FBC9C9D322F54A8E005EB7CC /* Question.swift in Sources */,
 				FB087B4E22F4713700CDD94E /* ViewController.swift in Sources */,
+				FBC9C9DE22F55098005EB7CC /* Answer.swift in Sources */,
+				FBC9C9DC22F54F08005EB7CC /* ResponseType.swift in Sources */,
 				FB087B4C22F4713700CDD94E /* AppDelegate.swift in Sources */,
+				FBC9C9E022F55240005EB7CC /* AnimalType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
